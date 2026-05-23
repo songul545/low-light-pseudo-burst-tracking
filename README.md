@@ -16,7 +16,7 @@
 </div>
 
 ### Introduction
-This is a baseline and toolbox for low-light image enhancement. This repo **supports over 15 benchmarks** and extremely high-resolution (up to 4000x6000) low-light enhancement. Our method Retinexformer **won the second place** in the [NTIRE 2024 Challenge on Low Light Enhancement](https://codalab.lisn.upsaclay.fr/competitions/17640). Later works based on our Retinexformer won the [NTIRE 2025 Low-light Image Enhancement Challenge](https://codalab.lisn.upsaclay.fr/competitions/21636) and [NTIRE 2026 Efficient Low-light Image Enhancement Challenge](https://www.codabench.org/competitions/13382/). If you find this repo useful, please give it a star ⭐ and consider citing our paper. Thank you.
+This is a baseline and toolbox for low-light image enhancement. This repo **supports over 15 benchmarks** and extremely high-resolution (up to 4000x6000) low-light enhancement. Our method Retinexformer **won the second place** in the [NTIRE 2024 Challenge on Low Light Enhancement](https://codalab.lisn.upsaclay.fr/competitions/17640) 🏆. Later works based on our Retinexformer won the [NTIRE 2025 Low-light Image Enhancement Challenge](https://codalab.lisn.upsaclay.fr/competitions/21636) 🏆 and [NTIRE 2026 Efficient Low-light Image Enhancement Challenge](https://www.codabench.org/competitions/13382/) 🏆. If you find this repo useful, please give it a star ⭐ and consider citing our paper. Thank you.
 
 ### Awards
 
