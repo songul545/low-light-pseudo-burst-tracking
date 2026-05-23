@@ -16,13 +16,15 @@
 </div>
 
 ### Introduction
-This is a baseline and toolbox for wide-range low-light image enhancement. This repo **supports over 15 benchmarks** and extremely high-resolution (up to 4000x6000) low-light enhancement. Our method Retinexformer **won the second place** in the [NTIRE 2024 Challenge on Low Light Enhancement](https://codalab.lisn.upsaclay.fr/competitions/17640).  If you find this repo useful, please give it a star ⭐ and consider citing our paper in your research. Thank you.
+This is a baseline and toolbox for wide-range low-light image enhancement. This repo **supports over 15 benchmarks** and extremely high-resolution (up to 4000x6000) low-light enhancement. Our method Retinexformer **won the second place** in the [NTIRE 2024 Challenge on Low Light Enhancement](https://codalab.lisn.upsaclay.fr/competitions/17640). Later works based on our Retinexformer won the [NTIRE 2025 Low-light Image Enhancement Challenge](https://codalab.lisn.upsaclay.fr/competitions/21636) and [NTIRE 2026 Efficient Low-light Image Enhancement Challenge](https://www.codabench.org/competitions/13382/). If you find this repo useful, please give it a star ⭐ and consider citing our paper in your research. Thank you.
 
 ### Awards
 
 <img src="./figure/ntire.png"  height=240> <img src="./figure/NTIRE_2024_award.png"  height=240>
 
 ### News
+- **2026.05.23 :** The winner solution of [NTIRE 2026 Efficient Low-light Image Enhancement Challenge](https://www.codabench.org/competitions/13382/) is based on our Retinexformer. Congraduation to them. Feel free to check the [challenge report](https://arxiv.org/abs/2605.02212).
+- **2025.06.05 :** The winner solution of [NTIRE 2025 Low-light Image Enhancement Challenge](https://codalab.lisn.upsaclay.fr/competitions/21636) is based on our Retinexformer. Congraduation to them. Feel free to check the [challenge report](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Liu_NTIRE_2025_Challenge_on_Low_Light_Image_Enhancement_Methods_and_CVPRW_2025_paper.pdf) and their [challenge paper](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Shi_FusionNet_Multi-model_Linear_Fusion_Framework_for_Low-light_Image_Enhancement_CVPRW_2025_paper.pdf).
 - **2025.02.10 :** [NTIRE 2025 Low-light Image Enhancement Challenge](https://codalab.lisn.upsaclay.fr/competitions/21636) has started. Welcome to use our Retinexformer and MST to participate in this challenge. 😄
 - **2024.09.15 :** An enhanced version of Retinexformer (ECCV 2024) has been released at [this repo](https://github.com/redrock303/ADF-LLIE). Feel free to check and use it. 🤗
 - **2024.08.07 :** We share the code that can draw our teaser figure (the bar comparison) [here](https://github.com/caiyuanhao1998/draw_script/tree/master/bar). Feel free to use it in your research :smile:
