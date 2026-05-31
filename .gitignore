@@ -122,4 +122,30 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+# Project generated outputs
+video_frames/
+video_frames_yakin/
+tracking_videos/
+final_pipeline_output/
+test_pipeline_output/
+pipeline_outputs/
+
+# YOLO and evaluation outputs
+runs/
+yolo_label_results/
+tracking_label_results/
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model files
+*.pth
+*.pt
+
+# IDE
+.vs/
+.vscode/
 

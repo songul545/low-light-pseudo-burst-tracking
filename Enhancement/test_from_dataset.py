@@ -111,7 +111,7 @@ except:
     model_restoration.load_state_dict(new_checkpoint)
 
 print("===>Testing using weights: ", weights)
-model_restoration.cuda()
+model_restoration.to('cpu')
 model_restoration = nn.DataParallel(model_restoration)
 model_restoration.eval()
 
@@ -218,14 +218,14 @@ else:
     with torch.inference_mode():
         for inp_path, tar_path in tqdm(zip(input_paths, target_paths), total=len(target_paths)):
 
-            torch.cuda.ipc_collect()
-            torch.cuda.empty_cache()
+            #torch.cuda.ipc_collect()
+            #torch.cuda.empty_cache()
 
             img = np.float32(utils.load_img(inp_path)) / 255.
             target = np.float32(utils.load_img(tar_path)) / 255.
 
             img = torch.from_numpy(img).permute(2, 0, 1)
-            input_ = img.unsqueeze(0).cuda()
+            input_ = img.unsqueeze(0).to('cpu')
 
             # Padding in case images are not multiples of 4
             b, c, h, w = input_.shape
