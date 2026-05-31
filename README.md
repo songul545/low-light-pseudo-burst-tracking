@@ -293,4 +293,6 @@ This repository adds an adaptive pseudo-burst video preprocessing module, YOLOv8
 
 ## License
 
-This repository includes components from the original Retinexformer implementation. Please refer to the included license file and the original Retinexformer project for license details.
+This repository includes components from the original Retinexformer implementation, which is distributed under the MIT License. Please refer to the included license file and the original Retinexformer project for license details.
+
+The additional code developed for this thesis includes the adaptive pseudo-burst fusion module, YOLOv8s + ByteTrack integration, end-to-end pipeline, and evaluation scripts.
