@@ -149,3 +149,7 @@ tracking_label_results/
 .vs/
 .vscode/
 
+my_test/
+figure/
+train_multigpu.sh
+
